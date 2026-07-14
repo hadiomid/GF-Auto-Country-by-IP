@@ -44,5 +44,3 @@ Country detection priority:
 - **Third-party data sharing**: When no CDN header is available, this plugin sends the visitor's IP address to [ip-api.com](https://ip-api.com) to determine their country. Review their [privacy policy](https://ip-api.com/docs) before deploying on GDPR-covered sites, and disclose this in your site's privacy policy.
 - **Accuracy**: IP-based geolocation is approximately 95-98% accurate at the country level and can be inaccurate for VPN, proxy, or mobile carrier NAT traffic. Always leave the dropdown editable so visitors can correct it.
 - **Choice matching**: Ensure your Drop Down field's choice values use either full country names or ISO 3166-1 alpha-2 codes consistently. See `iso-country-map.php` for the reference list used for code-to-name fallback.
-
-## File Structure
